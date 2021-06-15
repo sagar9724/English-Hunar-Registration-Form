@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{>header}}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="center">
+      <h1 style="color: antiquewhite;">ENGLISH HUNAR</h1>
+    </div>
+
+    <form action="/">
+      
+      <div id="name-sec">
+        <input type="text" placeholder="YOUR NAME" id="name">
+      </div>
+      <div id="email-sec">
+        <input type="email" placeholder="YOUR EMAIL" id="email" autocomplete="none">
+      </div>
+      <div id="gender-sec">
+        <label style="font-size:23px;">GENDER</label>
+        <i id="male-icon" class="fas fa-male"></i><input type="radio" name="gender" id="male" value="male">
+        <i id="female-icon" class="fas fa-female"></i><input type="radio" name="gender" id="female" value="female">
+      </div>
+      <div id="submit-sec">
+        <button id="submit" type="submit">REGISTER</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
